@@ -98,6 +98,18 @@ html, body {
     align-items: center;
     width: 100%;
     height: auto; }
+    .content-plate .content .info-1 .spell-stats {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px 0px;
+      background-color: rgba(255, 255, 255, 0.5); }
+      .content-plate .content .info-1 .spell-stats h1 {
+        font-size: 3em; }
+      .content-plate .content .info-1 .spell-stats p {
+        font-size: 2em; }
     @media screen and (max-width: 650px) {
       .content-plate .content .info-1 {
         flex-direction: column; } }
